@@ -1,5 +1,6 @@
 <template>
   <HeroCom />
+  <PartnersCom />
   <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -10,10 +11,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HeroCom from './components/HeroCom.vue'
+import PartnersCom from './components/PartnersCom.vue'
 
 export default defineComponent({
   components: {
     HeroCom,
+    PartnersCom,
   },
 })
 </script>
