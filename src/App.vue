@@ -1,6 +1,7 @@
 <template>
   <HeroCom />
   <PartnersCom />
+  <AboutUsCom />
   <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -12,11 +13,13 @@
 import { defineComponent } from 'vue'
 import HeroCom from './components/HeroCom.vue'
 import PartnersCom from './components/PartnersCom.vue'
+import AboutUsCom from './components/AboutUsCom.vue'
 
 export default defineComponent({
   components: {
     HeroCom,
     PartnersCom,
+    AboutUsCom,
   },
 })
 </script>
