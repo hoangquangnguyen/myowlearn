@@ -27,7 +27,7 @@
       </div>
     </div>
     <button
-      class="ml-[60px] px-10 py-4 border-[1px] rounded-lg font-bold text-base text-pinkD border-pinkD"
+      class="ml-[60px] px-10 py-4 border-[1px] rounded-lg font-bold text-base text-pinkD border-pinkD hover:bg-pink-100 transition ease-out duration-300"
     >
       Contact Us
     </button>
@@ -46,7 +46,9 @@
         of a great mentor to improve your performance at work
       </p>
       <div class="flex items-center">
-        <button class="bg-pinkD text-white px-10 py-5 font-bold rounded-md">
+        <button
+          class="bg-pinkD text-white px-10 py-5 font-bold rounded-md hover:bg-pink-500 transition ease-out duration-300"
+        >
           Explore path
         </button>
         <!-- rating -->
@@ -75,7 +77,6 @@
         </div>
       </div>
     </div>
-
     <div class="flex-1"><img src="@/assets/img-banner.png" alt="" /></div>
   </div>
 </template>
