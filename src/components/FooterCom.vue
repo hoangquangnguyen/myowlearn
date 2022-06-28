@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-    <div class="h-16 bg-black flex flex-col items-center">
+    <div class="h-16 bg-black flex flex-col items-center -mx-[100px]">
       <span class="text-white my-auto"
         >Copyright © 2021 Owlearn. All Rights Reserved.</span
       >
