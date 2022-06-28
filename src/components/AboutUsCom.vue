@@ -27,7 +27,9 @@
         digital course tools, study materials, IT infrastructure and other
         operations.
       </p>
-      <button class="text-white bg-pinkD rounded-md py-5 px-8">
+      <button
+        class="text-white font-semibold bg-pinkD rounded-md py-5 px-8 hover:bg-pink-500 transition ease-out duration-300"
+      >
         Become a Member
       </button>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row flex-1 items-center justify-between mb-20">
+  <div class="flex flex-row flex-1 items-center justify-between mb-[200px]">
     <div class="rounded-md h-[420px]">
       <img src="@/assets/testimonial-img.png" alt="" />
     </div>

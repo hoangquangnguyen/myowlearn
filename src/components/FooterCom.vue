@@ -12,7 +12,7 @@
           <a href="">Comunication</a>
           <a href="">Video Production</a>
           <a href="">Digital Marketing</a>
-          <a href="">Brading</a>
+          <a href="">Branding</a>
         </div>
       </div>
       <div>

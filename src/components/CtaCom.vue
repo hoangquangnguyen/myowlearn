@@ -7,7 +7,9 @@
         <h2 class="text-white max-w-[570px] text-4xl font-bold mb-9">
           Still confused about your career choice? consult with our experts
         </h2>
-        <button class="bg-white text-pinkD font-bold px-10 py-5 rounded-md">
+        <button
+          class="bg-white text-pinkD font-bold px-10 py-5 rounded-md hover:bg-pink-100 transition ease-out duration-300"
+        >
           Contact Us
         </button>
       </div>

@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between mb-12">
       <h2 class="font-bold text-4xl">Discover Course & Bootcamp</h2>
       <button
-        class="border-pinkD border-2 rounded-md py-4 px-10 font-bold text-base"
+        class="border-pinkD border-2 rounded-md py-4 px-10 font-bold text-pinkD hover:bg-pink-100 transition ease-out duration-300"
       >
         Show All
       </button>
