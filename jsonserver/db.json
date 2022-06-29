@@ -1,0 +1,10 @@
+{
+    "courses": [
+      { "id": 1, "title": "Product Management Basic - Course", "start": "2022-07-01","end":"2022-07-28" ,"amount":"120","sumary":"Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.","price":"500","discount":"120","imgurl":"course1.png"},
+      { "id": 2, "title": "Front End Developer - Basic", "start": "2022-08-01","end":"2022-08-28" ,"amount":"100","sumary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget magna enim fermentum porttitor.","price":"400","discount":"120","imgurl":"course2.png"},
+      { "id": 3, "title": "Back End Developerr - Basic", "start": "2022-07-01","end":"2022-07-28" ,"amount":"110","sumary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget magna enim fermentum porttitor.","price":"600","discount":"200","imgurl":"course3.png"},
+      { "id": 4, "title": "UX Design - Branstroming", "start": "2022-09-01","end":"2022-09-28" ,"amount":"150","sumary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget magna enim fermentum porttitor.","price":"300","discount":"100","imgurl":"course4.png"},
+      { "id": 5, "title": "UI Design - Sketch", "start": "2022-08-01","end":"2022-08-28" ,"amount":"150","sumary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget magna enim fermentum porttitor.","price":"400","discount":"120","imgurl":"course5.png"},
+      { "id": 6, "title": "Graphic Design - Fundamental Design", "start": "2022-07-01","end":"2022-07-28" ,"amount":"120","sumary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget magna enim porttitor.","price":"500","discount":"150","imgurl":"course6.png"}
+    ]
+  }
