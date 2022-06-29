@@ -1,7 +1,7 @@
 <template>
-  <div class="relative">
+  <div class="relative w-full bg-pinkD flex flex-col items-center">
     <div
-      class="relative bg-pinkD -mx-[100px] flex flex-row items-center justify-between py-[30px] h-[360px] z-10"
+      class="mydiv relative flex flex-row items-center justify-between py-[30px] h-[360px] z-10"
     >
       <div class="ml-[200px] w-1/2 z-0">
         <h2 class="text-white max-w-[570px] text-4xl font-bold mb-9">
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="relative h-[100px] -mx-[100px] bg-white z-20"></div>
+    <div class="relative h-[100px] w-full bg-white z-20"></div>
   </div>
 </template>
 <script lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex py-20 items-center">
+  <div class="mydiv flex py-20 items-center">
     <div
       class="rounded-xl relative bg-gradient-to-b from-white to-gray-500 w-2/5"
     >

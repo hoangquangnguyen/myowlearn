@@ -1,7 +1,7 @@
 <template>
   <!-- Hearder -->
   <div
-    class="flex items-center justify-between py-[36px] mb-[60px] text-brown2"
+    class="mydiv flex items-center justify-between py-[36px] mb-[60px] text-brown2"
   >
     <a href="/" class="flex flex-row items-center">
       <img src="@/assets/logo.png" alt="" class="h-11 w-20" />
@@ -33,7 +33,7 @@
     </button>
   </div>
   <!-- Banner -->
-  <div class="flex flex-row items-center justify-between">
+  <div class="mydiv flex flex-row items-center justify-between">
     <div class="flex-1">
       <h1 class="font-extrabold text-7xl mb-[10px]">
         Learn Any Skills to advance your career path

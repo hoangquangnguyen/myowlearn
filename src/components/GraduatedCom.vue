@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center mb-20">
+  <div class="mydiv flex flex-col items-center mb-20">
     <h4 class="mb-11 font-semibold text-3xl">Our graduates have worked in</h4>
     <div class="grid grid-cols-5 items-center justify-between gap-x-16 gap-y-8">
       <img src="@/assets/clickup-logo.png" alt="" />

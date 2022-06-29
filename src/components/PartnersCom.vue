@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between py-12">
+  <div class="mydiv flex items-center justify-between py-12">
     <p class="text-2xl font-semibold max-w-[300px]">
       We Partner With More Than 10+ Companies
     </p>
