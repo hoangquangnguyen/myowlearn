@@ -4,7 +4,7 @@
     class="mydiv flex items-center justify-between py-[36px] mb-[60px] text-brown2"
   >
     <a href="/" class="flex flex-row items-center">
-      <img src="@/assets/logo.png" alt="" class="h-11 w-20" />
+      <img src="@/assets/img/logo.png" alt="" class="h-11 w-20" />
       <span class="text-3xl text-[#313273]">Owlearn</span>
     </a>
     <div
@@ -39,7 +39,7 @@
         Learn Any Skills to advance your career path
       </h1>
       <div class="mb-[30px]">
-        <img src="@/assets/vector-line.png" alt="" />
+        <img src="@/assets/img/vector-line.png" alt="" />
       </div>
       <p class="font-medium text-xl max-w-[530px] mb-12">
         Want to improve your work skills? You need to study harder with the help
@@ -66,18 +66,18 @@
           </div>
           <div class="ml-3">
             <div class="flex">
-              <img src="@/assets/star-full.png" alt="" />
-              <img src="@/assets/star-full.png" alt="" />
-              <img src="@/assets/star-full.png" alt="" />
-              <img src="@/assets/star-full.png" alt="" />
-              <img src="@/assets/star-half.png" alt="" />
+              <img src="@/assets/img/star-full.png" alt="" />
+              <img src="@/assets/img/star-full.png" alt="" />
+              <img src="@/assets/img/star-full.png" alt="" />
+              <img src="@/assets/img/star-full.png" alt="" />
+              <img src="@/assets/img/star-half.png" alt="" />
             </div>
             <span>(4,5/5 from 10k Alumni)</span>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex-1"><img src="@/assets/img-banner.png" alt="" /></div>
+    <div class="flex-1"><img src="@/assets/img/img-banner.png" alt="" /></div>
   </div>
 </template>
 <script lang="ts">

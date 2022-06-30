@@ -4,11 +4,11 @@
       We Partner With More Than 10+ Companies
     </p>
     <div class="flex items-center gap-x-5">
-      <img src="@/assets/skillshare-icon.png" alt="" />
-      <img src="@/assets/udemy-icon.png" alt="" />
-      <img src="@/assets/google-icon.png" alt="" />
-      <img src="@/assets/coursera-icon.png" alt="" />
-      <img src="@/assets/foudation-icon.png" alt="" />
+      <img src="@/assets/img/skillshare-icon.png" alt="" />
+      <img src="@/assets/img/udemy-icon.png" alt="" />
+      <img src="@/assets/img/google-icon.png" alt="" />
+      <img src="@/assets/img/coursera-icon.png" alt="" />
+      <img src="@/assets/img/foudation-icon.png" alt="" />
     </div>
   </div>
 </template>

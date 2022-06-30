@@ -3,7 +3,7 @@
     <div
       class="rounded-xl relative bg-gradient-to-b from-white to-gray-500 w-2/5"
     >
-      <img src="@/assets/online-course-of-study.png" alt="" class="z-0" />
+      <img src="@/assets/img/online-course-of-study.png" alt="" class="z-0" />
       <div
         class="absolute bottom-0 left-0 z-10 transform translate-x-8 -translate-y-1/2"
       >
@@ -11,7 +11,7 @@
           >Educational technology</span
         >
         <span class="flex items-center"
-          ><img src="@/assets/map-pin.png" alt="" class="h-4 w-4" />
+          ><img src="@/assets/img/map-pin.png" alt="" class="h-4 w-4" />
           <p class="ml-3 text-white">Jakarta, Indonesia</p></span
         >
       </div>

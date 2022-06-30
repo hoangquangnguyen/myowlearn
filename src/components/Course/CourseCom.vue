@@ -17,6 +17,7 @@
     <hr class="py-6" />
     <div class="grid grid-cols-3 gap-7 px-10">
       <CourseItem
+        @click="clickTag"
         imgurl="course1.png"
         amount="120"
         datetime="4/12/2022"
@@ -74,15 +75,19 @@
   </div>
 </template>
 <script lang="ts">
+import { useFetch } from '@/data/CourseApi'
 import { ref } from 'vue'
 import CourseItem from './CourseItem.vue'
 
 export default {
   setup() {
     const Varabc = ref('')
+    const data = useFetch()
     const clickTag = () => {
       Varabc.value = 'clickTag'
+      console.log(data)
     }
+
     return { Varabc, clickTag }
   },
   components: { CourseItem },

@@ -5,7 +5,7 @@
       <div
         class="absolute bottom-[20px] left-[20px] flex items-center px-[15px] py-[6px] bg-white rounded-full"
       >
-        <img src="@/assets/user.png" alt="" />
+        <img src="@/assets/img/user.png" alt="" />
         <p class="text-pinkD font-semibold">{{ amount }}</p>
       </div>
     </div>

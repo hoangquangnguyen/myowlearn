@@ -32,10 +32,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <div class="flex flex-row gap-x-3 items-center">
-          <a href=""><img src="@/assets/instagram-icon.png" alt="" /></a>
-          <a href=""><img src="@/assets/twitter-icon.png" alt="" /></a>
-          <a href=""><img src="@/assets/in-icon.png" alt="" /></a>
-          <a href=""><img src="@/assets/youtube-icon.png" alt="" /></a>
+          <a href=""><img src="@/assets/img/instagram-icon.png" alt="" /></a>
+          <a href=""><img src="@/assets/img/twitter-icon.png" alt="" /></a>
+          <a href=""><img src="@/assets/img/in-icon.png" alt="" /></a>
+          <a href=""><img src="@/assets/img/youtube-icon.png" alt="" /></a>
         </div>
       </div>
     </div>

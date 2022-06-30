@@ -3,7 +3,7 @@
     class="mydiv flex flex-row flex-1 items-center justify-between mb-[200px]"
   >
     <div class="rounded-md h-[420px]">
-      <img src="@/assets/testimonial-img.png" alt="" />
+      <img src="@/assets/img/testimonial-img.png" alt="" />
     </div>
     <div class="flex flex-col flex-1 items-start">
       <h3 class="font-bold text-4xl mb-10">What did they say</h3>
@@ -22,7 +22,7 @@
         </div>
 
         <button class="rounded-full p-1">
-          <img src="@/assets/arrow-right-circle.png" alt="" />
+          <img src="@/assets/img/arrow-right-circle.png" alt="" />
         </button>
       </div>
     </div>

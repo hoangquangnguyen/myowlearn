@@ -19,7 +19,7 @@
           class="absolute top-0 left-0 bg-gradient-to-b from-[#D2388F] to-[#a23573] w-[70%] h-0 pt-[70%] rounded-full"
         >
           <img
-            src="@/assets/student-girl-using-laptop-learnin.png"
+            src="@/assets/img/student-girl-using-laptop-learnin.png"
             alt=""
             class="absolute top-2 left-3"
           />
