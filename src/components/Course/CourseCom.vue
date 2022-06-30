@@ -17,7 +17,6 @@
     <hr class="py-6" />
     <div class="grid grid-cols-3 gap-7 px-10">
       <CourseItem
-        @click="clickTag"
         imgurl="course1.png"
         amount="120"
         datetime="4/12/2022"
@@ -83,12 +82,8 @@ export default {
   setup() {
     const Varabc = ref('')
     const data = useFetch()
-    const clickTag = () => {
-      Varabc.value = 'clickTag'
-      console.log(data)
-    }
-
-    return { Varabc, clickTag }
+    console.log(data)
+    return { Varabc }
   },
   components: { CourseItem },
 }
