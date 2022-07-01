@@ -74,7 +74,7 @@
   </div>
 </template>
 <script lang="ts">
-import { useFetch } from '@/data/CourseApi'
+import { useFetch } from '@/api/CourseApi'
 import { ref } from 'vue'
 import CourseItem from './CourseItem.vue'
 

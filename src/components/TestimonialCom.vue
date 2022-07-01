@@ -14,6 +14,7 @@
         ICT technology. From student recruitment to teaching and learning
         administration processes,
       </p>
+      <p>Test stores:</p>
       <hr class="my-10 bg-black w-full" />
       <div class="w-full flex flex-row items-center justify-between">
         <div class="flex flex-col items-center">

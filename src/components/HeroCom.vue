@@ -12,8 +12,10 @@
         Want to improve your work skills? You need to study harder with the help
         of a great mentor to improve your performance at work
       </p>
+      <p>Test stores:{{ storedata }}</p>
       <div class="flex items-center">
         <button
+          @click="clickExplore"
           class="bg-pinkD text-white px-10 py-5 font-bold rounded-md hover:bg-pink-500 transition ease-out duration-300"
         >
           Explore path
@@ -48,11 +50,20 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  name: 'HeroCom',
-})
+import { ref, computed } from 'vue'
+import { useStore } from 'vuex'
+export default {
+  setup() {
+    const mystore = useStore()
+    const storedata = computed<number>(() => {
+      return mystore.state.count
+    })
+    const clickExplore = () => {
+      mystore.dispatch('increment', 0)
+    }
+    return { storedata, clickExplore }
+  },
+}
 </script>
 
 <style scoped></style>

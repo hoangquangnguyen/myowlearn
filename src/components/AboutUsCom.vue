@@ -27,6 +27,7 @@
         digital course tools, study materials, IT infrastructure and other
         operations.
       </p>
+      <p>Test stores:{{ count }}</p>
       <button
         class="text-white font-semibold bg-pinkD rounded-md py-5 px-8 hover:bg-pink-500 transition ease-out duration-300"
       >
@@ -37,9 +38,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { computed } from 'vue'
+import { useStore } from 'vuex'
 
-export default defineComponent({
-  name: 'AboutUsCom',
-})
+export default {
+  setup() {
+    const store = useStore()
+    const count = computed(() => {
+      return store.state.count
+    })
+    return { count }
+  },
+}
 </script>

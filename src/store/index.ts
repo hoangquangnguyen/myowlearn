@@ -1,21 +1,11 @@
 import { createStore } from 'vuex'
+import * as actions from './actions'
+import * as mutations from './mutations'
 
 const state = {
-  sum: 0,
-}
-
-const mutations = {
-  setSum(state: any, payload: number) {
-    state.sum = payload
-  },
-}
-const actions = {
-  setSum(context: any, payload: number) {
-    context.commit('setSum', payload)
-  },
+  count: 1231,
 }
 const getters = {}
-
 export default createStore({
   state,
   getters,
